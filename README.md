@@ -55,7 +55,7 @@ I undersampled the data here using the Cluster Centroids algorithm.
 ![Cluster Classification Report](https://user-images.githubusercontent.com/102767530/200700547-42aa1e47-5fec-4057-bae4-27a643038588.png)
 ![Cluster Consuion Matrix](https://user-images.githubusercontent.com/102767530/200700557-d56964c4-1d11-464d-a75a-60883dcc604c.png)
 
-##SMOTEENN Sampling
+## SMOTEENN Sampling
 
 With SMOTEENN Sampling, I tested a combination over- and under-sampling algorithm to determine if the algorithm results in the best performance compared to the other sampling algorithms used above.
 
@@ -68,5 +68,37 @@ With SMOTEENN Sampling, I tested a combination over- and under-sampling algorith
 ![SMOTEENN Accuracy Score](https://user-images.githubusercontent.com/102767530/200701371-90223677-980a-4dca-a742-432f192f3510.png)
 ![SMOTEENN Classification Report](https://user-images.githubusercontent.com/102767530/200701375-bdfff74a-8cd9-4887-8eea-bf2fcd69cdee.png)
 ![SMOTEENN Sampling Consuion Matrix](https://user-images.githubusercontent.com/102767530/200701391-8a8f253f-338d-4646-adbc-691885c8c80a.png)
+
+## Balanced Random Forest 
+
+The Balanced Random Forest model helps to reduce bias by creating 2 trees of equal size for the majority and minority classes. 
+
+- Accuracy Score: 91.7%
+- Precision High Risk: 9%
+- Precision Low Risk: 100%
+- Recall High Risk: 89%
+- Recall Low Risk: 94%
+
+![Balanced Random Forest Accuracy Score](https://user-images.githubusercontent.com/102767530/200702076-09959cc2-704d-4e62-aaf4-24c304738ce0.png)
+![Balanced Accuracy Score - Naive Random Oversampling](https://user-images.githubusercontent.com/102767530/200702088-578db043-9946-4547-b623-4963d066f0e8.png)
+
+## EasyEnsemble 
+
+The last model we used was the Easy Ensemble Classifer model. This model showcases new examples that are created and classifed by a set of individual decisions.
+
+- Accuracy Score: 91.7%
+- Precision High Risk: 9%
+- Precision Low Risk: 100%
+- Recall High Risk: 89%
+- Recall Low Risk: 94%
+
+![EasyEnsemble Accuracy Score](https://user-images.githubusercontent.com/102767530/200702482-95929ad4-1cca-42d6-9cad-dffc320de791.png)
+![EasyEnsemble Classification Report](https://user-images.githubusercontent.com/102767530/200702495-b79df457-1376-4c09-80e6-73743953c8a5.png)
+
+## Summary
+
+
+
+
 
 
